@@ -8,7 +8,6 @@ body {
 
     div.container {
         width: 780px;
-        border: 1px dotted blue;
         margin: 0 auto; /*tb rl*/
         background-color: white;
 
@@ -61,7 +60,6 @@ body {
                 padding: 10px 10px 10px 15px;
 
                 aside {
-                    border: 1px solid black;
 
                     &.left {
                         width: 30%;
@@ -87,7 +85,6 @@ body {
                         div.links {
                             margin: 50px auto 0;
                             width: 153px;
-                            border: 1px solid black;
                         }
                     }
 
@@ -119,6 +116,12 @@ body {
 
                         a{
                             color: var(--uofuRed);
+                            text-transform: uppercase;
+                            text-decoration: none;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
                         }
 
                     }
