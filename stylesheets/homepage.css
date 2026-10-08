@@ -12,7 +12,7 @@ body {
         background-color: white;
 
         section.middle {
-            background-image: url("files/uofu_medallion_rt.gif");
+            background-image: url("../files/uofu_medallion_rt.gif");
             background-position: bottom right;
             background-repeat: no-repeat;
             min-height: 500px;
