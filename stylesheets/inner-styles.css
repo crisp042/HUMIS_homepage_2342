@@ -13,6 +13,12 @@ body {
         width: 780px;
         min-height: 600px;
 
+        header{
+            img{
+                display: block;
+            }
+        }
+
         section.middle {
             display: flex;
 
@@ -49,8 +55,8 @@ body {
 
                     .links {
                         display: flex;
-                        border: 1px solid black;
                         flex-direction: column;
+                        margin-bottom: 2rem;
                     }
                 }
             }
@@ -58,7 +64,6 @@ body {
             section {
                 &.right-side {
                     width: 70%;
-                    min-height: 600px;
                     display: flex;
                     justify-content: space-between;
                     flex-direction: column;
@@ -100,12 +105,10 @@ body {
                     }
 
                     main {
-                        border: 1px dotted black;
-
                         img {
                             &.pull-right {
                                 float: right;
-                                width: 150px;
+                                width: 175px;
                                 padding: 20px 0px 20px 20px;
                             }
                         }
