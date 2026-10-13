@@ -49,6 +49,10 @@ body {
                                 background-color: #505A2F;
                                 color: white;
                             }
+
+                            &.active{
+                                font-weight: bold;
+                            }
                         }
                     }
 
