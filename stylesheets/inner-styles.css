@@ -110,13 +110,7 @@ body {
 
                     main {
                         min-height: 600px;
-                        img {
-                            &.pull-right {
-                                float: right;
-                                width: 175px;
-                                padding: 20px 0px 20px 20px;
-                            }
-                        }
+
                     }
                 }
             }
