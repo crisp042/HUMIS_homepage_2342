@@ -1,12 +1,9 @@
 section.horizontal-two-column-layout {
-    border: 3px dashed darkgray;
     display: flex;
     padding: 10px;
     gap: 1.5rem;
 
     aside {
-        border: 1px dotted red;
-
         &.left-column {
             width: 30%;
             display: flex;
@@ -15,6 +12,33 @@ section.horizontal-two-column-layout {
 
             p{
                 text-align: left;
+            }
+
+            div.top{
+                div.category{
+                    a{
+                        display: block;
+                        text-decoration: none;
+                        color: black;
+                        font-size: 0.75rem;
+                        margin-bottom: 0.2rem;
+
+                        &:hover{
+                            text-decoration: underline;
+                        }
+
+                        &.active{
+                            font-weight: bold;
+                        }
+                    }
+                    &.sub{
+                        margin-left: 10px;
+                        a{
+                            color: var(--burgundy);
+                        }
+                    }
+
+                }
             }
 
             div.bottom{
@@ -33,6 +57,7 @@ section.horizontal-two-column-layout {
                     a{
                         color: black;
                         text-decoration: none;
+                        display: block;
 
                         &:hover{
                             text-decoration: underline;
