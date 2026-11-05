@@ -11,6 +11,12 @@ body {
         margin: 0 auto; /*tb rl*/
         background-color: white;
 
+        header{
+            img{
+                display: block;
+            }
+        }
+
         section.middle {
             background-image: url("../files/uofu_medallion_rt.gif");
             background-position: bottom right;
@@ -55,7 +61,7 @@ body {
 
             section.brown-box {
                 background-color: #CDCFB7;
-                min-height: 600px;
+                min-height: 500px;
                 margin: 5px 0 50px;
                 padding: 20px 20px 20px 15px;
                 border-radius: 20px;
@@ -65,6 +71,8 @@ body {
                     &.left {
                         width: 30%;
                         float: left;
+                        flex-direction: column;
+
 
                         nav {
                             a {
@@ -74,7 +82,7 @@ body {
                                 border-bottom: 2px solid #505A2F;
                                 text-transform: uppercase;
                                 padding: 5px 0px 5px 10px;
-                                font-size: 10px;
+                                font-size: 12px;
 
                                 &:hover {
                                     background-color: #505A2F;

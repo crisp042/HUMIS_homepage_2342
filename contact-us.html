@@ -151,7 +151,7 @@
                     </div>
                 </section>
 
-                <section class="contact-form">
+                <form class="contact-form">
                     <label>
                         Name:
                         <input type="text" name="name" placeholder="Enter your name"/>
@@ -159,9 +159,25 @@
 
                     <label>
                         Phone:
-                        <input type="text" name="phone" placeholder="Enter your phone number"/>
+                        <input type="text" name="phone-number" placeholder="Enter your phone number"/>
                     </label>
-                </section>
+
+                    <label>
+                        Can we call you?
+                        <input type="checkbox" name="call-via-phone" />
+                    </label>
+
+                        How would you like to be contacted?
+                    <label>
+                        <input type="radio" name="contact-preference" value="email"/> Email
+                    </label>
+
+                    <label>
+                        <input type="radio" name="contact-preference" value="phone" checked/> Phone<br/>
+                    </label>
+
+                    <button type="submit">Submit</button>
+                </form>
 
             </main>
 
