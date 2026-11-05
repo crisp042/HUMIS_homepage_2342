@@ -70,19 +70,21 @@ body {
 
                     &.left {
                         width: 30%;
+                        min-height: 520px;
                         float: left;
+                        display: flex;
                         flex-direction: column;
-
+                        justify-content: space-between;
 
                         nav {
                             a {
                                 display: block;
                                 color: black;
                                 text-decoration: none;
-                                border-bottom: 2px solid #505A2F;
+                                border-bottom: 1px solid #505A2F;
                                 text-transform: uppercase;
-                                padding: 5px 0px 5px 10px;
-                                font-size: 12px;
+                                padding: 10px 0px 10px 10px;
+                                font-size: 10px;
 
                                 &:hover {
                                     background-color: #505A2F;
@@ -92,6 +94,7 @@ body {
                         }
 
                         div.links {
+                            padding-bottom: 20px;
                             margin: 50px auto 0;
                             width: 153px;
                         }
