@@ -1,0 +1,1 @@
+This project really helped me nail down the basics of HTML and CSS it will provide me a good base to get going through the rest of the webpages on HUMIS, It also provides me a backlog I can look at to compare my other pages to and make sure I am structuring my format correctly. It was pretty fun to get the hang of it.
