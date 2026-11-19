@@ -13,7 +13,7 @@
                 font-size: 11px;
                 color: var(--burgundy);
                 border-bottom: 2px solid black;
-                padding-bottom: 15px;
+                padding-bottom: 2px;
                 margin-bottom: 15px;
                 margin-top: 30px;
 
@@ -39,6 +39,7 @@
                 div {
                     h6 {
                         color: black;
+                        font-size: .75rem;
                     }
 
                     p {
@@ -47,7 +48,6 @@
                 }
             }
         }
-        /*local styles*/
     </style>
 </head>
 <body>
@@ -107,7 +107,7 @@
                 </nav>
 
                 <section class="content">
-                    <h3>Contact Us</h3>
+                    <h5>CONTACT INFORMATION</h5>
 
                     <div>
                         <h6>U.S. MAIL</h6>
@@ -148,35 +148,6 @@
                         </p>
                     </div>
                 </section>
-
-                <form class="contact-form">
-                    <label>
-                        Name:
-                        <input type="text" name="name" placeholder="Enter your name"/>
-                    </label>
-
-                    <label>
-                        Phone:
-                        <input type="text" name="phone-number" placeholder="Enter your phone number"/>
-                    </label>
-
-                    <label>
-                        Can we call you?
-                        <input type="checkbox" name="call-via-phone" />
-                    </label>
-
-                        How would you like to be contacted?
-                    <label>
-                        <input type="radio" name="contact-preference" value="email"/> Email
-                    </label>
-
-                    <label>
-                        <input type="radio" name="contact-preference" value="phone" checked/> Phone<br/>
-                    </label>
-
-                    <button type="submit">Submit</button>
-                </form>
-
             </main>
 
             <nav class="secondary bottom-nav">
