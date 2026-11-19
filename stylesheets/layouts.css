@@ -9,6 +9,8 @@ section.horizontal-two-column-layout {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            padding-right: 20px;
+            border-right: 1px dashed #292827;
 
             p{
                 text-align: left;
@@ -68,7 +70,7 @@ section.horizontal-two-column-layout {
         }
 
         &.right-column {
-            width: 70%;
+            width: 60%;
         }
     }
 }
