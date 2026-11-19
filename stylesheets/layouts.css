@@ -6,11 +6,11 @@ section.horizontal-two-column-layout {
 
     aside {
         &.left-column {
-            width: 30%;
+            width: 36%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            padding-right: 20px;
+            padding-right: 15px;
             border-right: 1px dashed #292827;
 
             p{
@@ -71,7 +71,7 @@ section.horizontal-two-column-layout {
         }
 
         &.right-column {
-            width: 60%;
+            width: 54%;
         }
     }
 }
