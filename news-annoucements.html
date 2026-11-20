@@ -8,7 +8,6 @@
     <style>
         main {
             a {
-                text-transform: lowercase;
                 color: var(--burgundy);
                 text-decoration: none;
                 font-size: 12px;
@@ -22,6 +21,7 @@
                 aside.left-column {
                     h5 {
                         margin-top: 10px;
+                        margin-bottom: 10px;
                     }
 
                     div.category {
@@ -31,7 +31,71 @@
                         }
                     }
                 }
+
+                aside.right-column {
+                    .calendar-link {
+                        display: block;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        text-transform: uppercase;
+                        color: var(--burgundy);
+                        text-decoration: none;
+                        font-size: 12px;
+                        font-weight: bold;
+
+                        &:hover {
+                            color: var(--burgundy);
+                            text-decoration: underline;
+                        }
+
+                        img {
+                            vertical-align: middle;
+                        }
+                    }
+
+                    .bowl-img{
+                        float: right;
+                    }
+
+                    .date-time {
+                        font-size: 16px;
+                        font-weight: bold;
+
+                        p {
+                            margin: 0;
+                        }
+                    }
+
+                    .event-title {
+                        p {
+                            font-size: 12px;
+                            font-weight: bold;
+                            margin-top: 20px;
+                            margin-bottom: 0;
+                        }
+                    }
+
+                    .professor {
+                        p {
+                            margin-top: 0;
+                        }
+                    }
+
+                    .bottom-link {
+                        color: var(--burgundy);
+                        font-weight: bold;
+                        text-decoration: none;
+                        text-transform: uppercase;
+
+                        &:hover {
+                            color: var(--burgundy);
+                            text-decoration: underline;
+                        }
+                    }
+                }
             }
+        }
+
         }
     </style>
 </head>
@@ -88,12 +152,12 @@
 
                     <aside class="left-column">
                         <div class="top">
-                            <h5> NEWS &amp; ANNOUCEMENTS</h5>
+                            <h5> NEWS &amp; ANNOUNCEMENTS</h5>
 
                             <div class="category">
-                                <p><strong>Calendar</strong></p>
-                                <p>Newsletter</p>
-                                <p>New Faculty</p>
+                                <a><strong>Calendar</strong></a>
+                                <a>Newsletter</a>
+                                <a>New Faculty</a>
 
                             </div>
 
@@ -101,7 +165,44 @@
                     </aside>
 
                     <aside class="right-column">
-                        filler text
+                        <a class="calendar-link" href="#">
+                            <img src="files/calendar-c-link.png" height="30" width="30"/>
+                            >> VIEW THE DEPARTMENT CALENDAR
+                        </a>
+
+                        <img class="bowl-img" src="files/lady-with-bowl.png" height="90px" width="90px" alt="Lady with bowl"/>
+
+                        <div class="date-time">
+                            <p>MAY 28, 2005</p>
+                            <p>UMFA</p>
+                            <p>10 AM - 2 PM</p>
+                        </div>
+
+                        <div class="event-title">
+                            <p>“The Coolest Lecture in History”</p>
+                        </div>
+
+                        <div class="professor">
+                            <p><em>Professor Rhonda Ramsey</em></p>
+                        </div>
+
+                        <p>
+                            Epeconsu lusquidium octusquit. Lossili caverma, unum fur quos culibut L. Ber pra sed
+                            sentemum screm pere mo eo, quo ublistius, quod crum ad re consimus aricie terum tus, Catum
+                            imo mei in ducontilla cri publinticae facienam terei propora ctorion damdiis vis andentil
+                            confesigilis ma, quam avocrei iam din aur iam aturem nem aus hacci pro ubli inihicaedet vit;
+                            non temerrato et vis es los, consus perterf intilica; horum nemus et con hae in dum,
+                            senductus cris audem mori patatiq uondi, ditemorit. Se atusquis, ium demerox imilium depopub
+                            licatiam tus horum li, cone pate quo aut con sulestario perfecu rnumus. Quoditri in vidi
+                            ficient L. Graedeatui se omperit.
+                        </p>
+
+                        <a class="bottom-link" href="#">
+                            >> download the poster
+
+                        </a>
+
+
                     </aside>
 
                 </section>
