@@ -6,12 +6,20 @@
     <link rel="stylesheet" href="stylesheets/inner-styles.css">
 
     <style>
+        .right-side{
+            .top-nav{
+                text-transform: uppercase;
+            }
+        }
         main{
             a {
                 text-transform: lowercase;
                 color: var(--burgundy);
                 text-decoration: none;
                 font-size: 12px;
+                &:hover {
+                    text-decoration: underline;
+                }
             }
 
             .beforelink{
@@ -90,9 +98,9 @@
                             <h5> FRIENDS &amp; ALUMNI</h5>
 
                             <div class="category">
-                                <p>Calendar</p>
-                                <p>2005 Newsletter</p>
-                                <p>GIVE A GIFT TO THE DEPARTMENT</p>
+                                <a href="#">Calendar</a>
+                                <a href="#">2005 Newsletter</a>
+                                <a href="#">GIVE A GIFT TO THE DEPARTMENT</a>
 
                             </div>
 
@@ -108,13 +116,13 @@
 
                         <p class="beforelink">year the History Department is pleased to announce the creation of the <strong>James L. Clayton Distinguished Research Chair</strong> in the Department of History. This is an innovative award created to honor our recently retired colleague, Jim Clayton, and offer vital support to especially promising research projects in the department.</p>
 
-                        <a href="#">
+                        <a href="james-clayton.html">
                             >> learn more
                         </a>
 
                         <p class="beforelink">Thanks to the generosity of several large donors, including the George S. and Dolores Doré Eccles Foundation, along with the support of scores of former students, colleagues, and friends, the <strong>Dean L. May Graduate Fellowship</strong> in the History of Utah and the American West has become a reality.</p>
 
-                        <a href="#">
+                        <a href="graduate-fellowship.html">
                             >> learn more
                         </a>
 
@@ -124,7 +132,7 @@
 
             </main>
 
-            <nav class="secondary top-nav">
+            <nav class="secondary bottom-nav">
                 <a href="#">Disclaimer</a>
                 <a href="#">Text only</a>
                 <a href="#">Webmaster</a>
