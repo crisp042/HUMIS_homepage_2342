@@ -2,9 +2,145 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Graduate Students</title>
+    <link rel="stylesheet" href="stylesheets/inner-styles.css">
 </head>
+
+<style>
+    .container{
+        h1{
+            color: var(--burgundy);
+            text-transform: uppercase;
+            margin-top: 20px;
+            margin-bottom: 0;
+            border-bottom: 10px solid var(--burgundy);
+            padding-bottom: 3px;
+        }
+        .left-column{
+            .category{
+                h6{
+                    color:black;
+                    margin-bottom: 2px;
+                }
+                a{
+                    color:black;
+                    text-decoration: none;
+                    font-size: 12px;
+                    display: block;
+                    margin: 3px;
+                    &:hover{
+                        color:black;
+                        text-decoration: underline;
+                    }
+                }
+                .current{
+                    margin-bottom: 40px;
+                }
+            }
+        }
+
+    }
+</style>
+
+
 <body>
+
+<section class="container">
+
+    <header>
+        <a href="index.html">
+            <img src="files/historyHome.gif" height="102" width="850" alt="U of U History Department logo"/>
+        </a>
+
+    </header>
+
+    <section class="middle">
+
+        <section class="left-side">
+            <nav>
+                <a href="about-us.html" class="active">About us</a>
+                <a href="#">Faculty &amp; staff</a>
+                <a href="#">Undergraduate Students</a>
+                <a href="#">Graduate Students</a>
+                <a href="#">Courses &amp; syllabus</a>
+                <a href="#">News &amp; announcements</a>
+                <a href="#">Friends &amp; alumni</a>
+                <a href="contact-us.html">Contact us</a>
+            </nav>
+
+            <div class="links">
+
+                <a href="http://www.youtube.com">
+                    <img src="files/login-humis.gif" alt="Login to Humis"/>
+                </a>
+
+                <a href="https://www.youtube.com">
+                    <img src="files/login-cis.gif" alt="Log into CIS"/>
+                </a>
+
+            </div>
+
+
+        </section>
+
+        <section class="right-side">
+            <nav class="secondary top-nav">
+                <a href="#">Campus directory</a>
+                <a href="#">Department Calendar</a>
+                <a href="contact-us.html">Contact Us</a>
+                <a href="#"><img src="files/u_small.gif" height="18" width="18"/></a>
+            </nav>
+
+            <main>
+                <h1>Graduate Students</h1>
+                <section class="horizontal-two-column-layout">
+
+                    <aside class="left-column">
+                        <div class="category">
+                            <div class="prospective"></div>
+                                <h6>PROSPECTIVE STUDENTS</h6>
+                                <a href="#">Application</a>
+                                <a href="#">Financial Aid</a>
+                                <a href="#">HGSA</a>
+                                <a href="#">Campus & Community</a>
+                                <a href="#">FAQ</a>
+
+                            <div class="current"></div>
+                                <h6>CURRENT STUDENTS</h6>
+                                <a href="#">Deadlines</a>
+                                <a href="#">HGSA</a>
+                                <a href="#">Campus & Community</a>
+                                <a href="#">Recent Graduates</a>
+                                <a href="#">FAQ</a>
+                        </div>
+
+                    </aside>
+
+                    <aside class="right-column">
+
+                        <img src="files/grad-student-using-device.png" height="30%" width="auto" alt="Graduate Students using device"/>
+                        <p>Thank you for your interest in the graduate program in history at the University of Utah. If you would like to apply for admission to the graduate program in History for the Fall Semester of 2006, please click here. Please note that the application deadline for the 2006-2007 academic year is <strong>January 15, 2006</strong></p>
+
+                </section>
+
+            </main>
+
+            <nav class="secondary top-nav">
+                <a href="#">Disclaimer</a>
+                <a href="#">Text only</a>
+                <a href="#">Webmaster</a>
+            </nav>
+
+
+        </section>
+
+    </section>
+
+    <footer>
+        380 SOUTH 1400 EAST | 211 C HALL | SALT LAKE CITY | UT | 84112 | PHONE 801.581.6121 | FAX 801.585.0580
+    </footer>
+
+</section>
 
 </body>
 </html>
